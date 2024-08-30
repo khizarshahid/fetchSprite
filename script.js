@@ -1,19 +1,4 @@
-//fetch
 
-// fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-// .then(response => {
-
-//     if(!response.ok){
-//         throw new Error("Invalid path! Couldn't fetch resource")
-//     }
-//     return response.json();
-// })
-// .then(data=> console.log(data))
-// .catch(error =>console.error(error));
-
-//********Now with Async & Await */
-
-// fetchData();
 
 async function fetchData(){
     try{
